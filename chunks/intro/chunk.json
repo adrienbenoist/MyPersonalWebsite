@@ -1,0 +1,27 @@
+{
+  "name": "intro",
+  "routes": {
+    "main": {
+      "title": "Welcome",
+      "icon": "home",
+      "path": "/",
+      "cover": {
+        "image": "cover.r.png",
+        "opacity": 0.5,
+        "navigation": true,
+        "title": "This is my personal site",
+        "subtitle": "You won't believe your eyes",
+        "type": "default",
+        "primaryActionTitle": "Let's do this"
+      },
+      "components": {
+        "intro": {
+          "source": "summary",
+          "text": "local://intro",
+          "image": "logo.png",
+          "textColor": "#37474F"
+        }
+      }
+    }
+  }
+}
