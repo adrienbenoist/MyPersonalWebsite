@@ -2,17 +2,20 @@
   "name": "intro",
   "routes": {
     "main": {
-      "title": "Welcome",
+      "title": "Home",
       "icon": "home",
       "path": "/",
       "cover": {
         "image": "cover.r.png",
         "opacity": 0.5,
         "navigation": true,
-        "title": "This is my personal site",
-        "subtitle": "You won't believe your eyes",
+        "title": "Welcome to my Curriculum Vitae & Blog website",
+        "subtitle": "This is my first website and it is created with Carmel & Chunky",
         "type": "default",
-        "primaryActionTitle": "Let's do this"
+        "primaryActionTitle": "Let's start: go to my Curriculum Vitae"
+      },
+      "events": {
+        "cover": "local://adrienbenoist"
       },
       "components": {
         "intro": {
