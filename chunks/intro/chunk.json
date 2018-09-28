@@ -20,7 +20,7 @@
       "components": {
         "intro": {
           "source": "summary",
-          "text": "local://intro",
+          "text": "local://home",
           "image": "logo.png",
           "textColor": "#37474F"
         }

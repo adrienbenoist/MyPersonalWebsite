@@ -15,6 +15,7 @@
   },
   "homepage": "http://www.chunky.io",
   "dependencies": {
+    "antd": "^3.8.2",
     "react-dom-chunky": "0.9.x"
   },
   "devDependencies": {

@@ -13,24 +13,78 @@
         "id": "social",
         "elements": [
           {
-            "id": "web",
-            "title": "Web",
-            "link": "http://carmel.io"
+            "id": "instagram",
+            "title": "Instagram",
+            "link": "https://www.instagram.com/adrienbenoist/"
           },
           {
             "id": "twitter",
             "title": "Twitter",
-            "link": "http://twitter.com/carmelplatform"
+            "link": "https://twitter.com/BenoistAdrien"
           },
           {
-            "id": "telegram",
-            "title": "Telegram",
-            "link": "http://t.me/carmelplatform"
+            "id": "facebook",
+            "title": "Facebook",
+            "link": "https://www.facebook.com/adrien.benoist.9"
+          }
+        ]
+      },
+      {
+        "title": "Pro",
+        "id": "pro",
+        "elements": [
+          {
+            "id": "github",
+            "title": "Github",
+            "link": "https://github.com/adrienbenoist"
           },
+          {
+            "id": "linkedin",
+            "title": "Linkedin",
+            "link": "https://www.linkedin.com/in/adrien-benoist-53479baa/"
+          }
+        ]
+      },
+      {
+        "title": "Blog",
+        "id": "blog",
+        "elements": [
           {
             "id": "medium",
             "title": "Medium",
-            "link": "http://medium.com/carmelplatform"
+            "link": "https://medium.com/@adrien.benoist45"
+          },
+          {
+            "id": "steemit",
+            "title": "Steemit",
+            "link": "https://steemit.com/@adrienbenoist"
+          }
+        ]
+      },
+      {
+        "title": "Message",
+        "id": "message",
+        "elements": [
+          {
+            "id": "telegram",
+            "title": "Telegram",
+            "link": "https://t.me/AdrienBenoist"
+          }
+        ]
+      },
+      {
+        "title": "Discover",
+        "id": "discover",
+        "elements": [
+          {
+            "id": "carmel",
+            "title": "Carmel",
+            "link": "https://www.carmel.io/"
+          },
+          {
+            "id": "chunky",
+            "title": "Chunky",
+            "link": "http://www.chunky.io/"
           }
         ]
       }
