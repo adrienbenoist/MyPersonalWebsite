@@ -24,7 +24,29 @@
           "image": "logo.png",
           "textColor": "#37474F"
         }
-      }
+      },
+      "extendedMenu":[
+        {
+          "id": "cv",
+          "title":"CV",
+          "path":"/adrienbenoist"
+        },
+        {
+          "id": "blog",
+          "title":"Blog",
+          "path":"/blog"
+        },
+        {
+          "id": "books",
+          "title":"Books",
+          "path":"/books"
+        },
+        {
+          "id": "about",
+          "title":"About",
+          "path":"/about"
+        }
+      ]
     }
   }
 }
