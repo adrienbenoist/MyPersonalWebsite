@@ -9,10 +9,10 @@
         "image": "cover.r.png",
         "opacity": 0.5,
         "navigation": true,
-        "title": "Welcome to my Curriculum Vitae & Blog website",
-        "subtitle": "This is my first website and it is created with Carmel & Chunky",
+        "title": "Adrien Benoist",
+        "subtitle": "Welcome to my Personal Website",
         "type": "default",
-        "primaryActionTitle": "Let's start: go to my Curriculum Vitae"
+        "primaryActionTitle": "Go to my Curriculum Vitae"
       },
       "events": {
         "cover": "local://adrienbenoist"

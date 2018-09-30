@@ -1,5 +1,5 @@
-# Home content
+# Welcome to my Curriculum Vitae & Blog website
 
 ## This is in Contruction
 
-Test
+This is my first website and it is created with Carmel & Chunky
