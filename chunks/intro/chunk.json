@@ -47,6 +47,26 @@
           "path":"/about"
         }
       ]
+    },
+    "cv": {
+      "title": "CV",
+      "path": "/adrienbenoist",
+      "cover": {
+        "image": "cover.r.png",
+        "opacity": 0.5,
+        "navigation": true,
+        "title": "Adrien Benoist's CV",
+        "subtitle": "",
+        "type": "simple"
+      },
+      "components": {
+        "intro":{
+          "source": "summary",
+          "text": "local://cv",
+          "image": "logo.png",
+          "textColor": "#37474F"
+        }
+      }
     }
   }
 }
