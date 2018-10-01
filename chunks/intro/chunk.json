@@ -67,6 +67,66 @@
           "textColor": "#37474F"
         }
       }
+    },
+    "blog": {
+      "title": "Blog",
+      "path": "/blog",
+      "cover": {
+        "image": "cover.r.png",
+        "opacity": 0.5,
+        "navigation": true,
+        "title": "Adrien Benoist's blog",
+        "subtitle": "",
+        "type": "simple"
+      },
+      "components": {
+        "intro":{
+          "source": "summary",
+          "text": "local://blog",
+          "image": "logo.png",
+          "textColor": "#37474F"
+        }
+      }
+    },
+    "books": {
+      "title": "Books",
+      "path": "/books",
+      "cover": {
+        "image": "cover.r.png",
+        "opacity": 0.5,
+        "navigation": true,
+        "title": "Adrien Benoist's books",
+        "subtitle" : "",
+        "type": "simple"
+      },
+      "components": {
+        "intro": {
+          "source": "summary",
+          "text": "local://books",
+          "image": "logo.png",
+          "textColor": "#37474F"
+        }
+      }
+    },
+    "about": {
+      "title": "About",
+      "path": "/about",
+      "cover": {
+        "image": "cover.r.png",
+        "opacity": 0.5,
+        "navigation": true,
+        "title": "About",
+        "subtitle" : "",
+        "type": "simple"
+      },
+      "components": {
+        "intro": {
+          "source": "summary",
+          "text": "local://about",
+          "image": "logo.png",
+          "textColor": "#37474F"
+        }
+      }
     }
   }
 }
