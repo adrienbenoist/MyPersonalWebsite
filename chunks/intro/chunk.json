@@ -15,15 +15,27 @@
         "primaryActionTitle": "Go to my Curriculum Vitae"
       },
       "events": {
-        "cover": "local://adrienbenoist"
+        "cover": "local://adrienbenoist",
+        "feature-intro": "local://adrienbenoist"
       },
       "components": {
         "intro": {
           "source": "summary",
-          "text": "local://home",
-          "image": "logo.png",
+          "text": "local://intro",
+          "image": "adrien-home.gif",
           "textColor": "#37474F"
-        }
+        },
+        "features": [
+          {
+            "id": "feature-intro",
+            "source": "feature",
+            "text":"local://feature-intro",
+            "image":"logo-adrien.png",
+            "actionTitle":"Learn More",
+            "backgroundColor":"#ffffff",
+            "textColor":"#0686d8"
+          }
+        ]
       },
       "extendedMenu":[
         {
