@@ -1,5 +1,5 @@
 # Blog
 
-## This is in Contruction
+## Articles created
 
-This is in construction and it will contains some articles
+TODO: this page should show links and presentation of the article written since starting carmel

@@ -1,5 +1,7 @@
 # Books
 
-## This is in Contruction
+## Books read since the begining of the construction of the website
 
-This is in construction and it will contains the read books since the begining of the website
+TODO: Explain why the starting point is the beggining of the construction of the website.
+
+THe content presentaiton should show the cover of each book + title + feedback

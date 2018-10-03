@@ -30,7 +30,7 @@
             "id": "feature-intro",
             "source": "feature",
             "text":"local://feature-intro",
-            "image":"logo-adrien.png",
+            "image":"projector.jpg",
             "actionTitle":"Learn More",
             "backgroundColor":"#ffffff",
             "textColor":"#0686d8"
