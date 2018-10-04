@@ -1,0 +1,32 @@
+[{
+    "id": "1",
+    "logo": "",
+    "nom": "Université d'Orléans",
+    "degree":"Master's degree, MIAGE, option SIMSA",
+    "period": "2014 – 2016",
+    "description":"MIAGE : Informatics methods applied in the management of companies, SIMSA : Social and Insurance Trades Information Systems"
+},
+{
+    "id": "Z",
+    "logo": "",
+    "nom": "Université d'Orléans",
+    "degree":"Licence's degree, MIAGE",
+    "period": "2013 – 2014",
+    "description":"MIAGE : Informatics methods applied in the management of companies"
+},
+{
+    "id": "3",
+    "logo": "",
+    "nom": "IUT d'Orléans",
+    "degree":"Degree Nametwo-years university degree in computer sciences(BTEC Higher National Diploma)",
+    "period": "2011 – 2013",
+    "description":""
+},
+{
+    "id": "4",
+    "logo": "",
+    "nom": "Lycée Pothier Orléans",
+    "degree":"Degree NameBachelor of Applied Science (B.A.Sc.) Field Of StudyPhysical Chemistry Mathematics",
+    "period": "2008 – 2011",
+    "description":""
+}]
