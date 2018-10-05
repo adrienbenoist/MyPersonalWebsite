@@ -1,20 +1,20 @@
 [{
     "id": "1",
-    "logo": "evozon-logo.png",
-    "title": "Dynamics Navision Consultant/Developer",
-    "subtitle":"Evozon",
-    "period": "Jan 2017 – Present",
-    "location": "Cluj County, Romania",
-    "description":""
+    "logo": "",
+    "title": "Internship",
+    "subtitle":"Chambre régionale d'Agriculture du Centre",
+    "period": "Apr 2013 – Jun 2013",
+    "location": "Orléans, Centre, France",
+    "description":"Development of a PHP web app to produce statistics of created tickets/cases problems by employees to improve the bad points found."
 },
 {
     "id": "2",
-    "logo": "evozon-logo.png",
+    "logo": "",
     "title": "Intership",
-    "subtitle":"Evozon",
-    "period": "dNov 2016 – Dec 2016",
-    "location": "Cluj County, Romania",
-    "description":"1 month internship to learns basics of Dynamics Navision."
+    "subtitle":"Sopra",
+    "period": "Apr 2014 – Jul 2014",
+    "location": "Orléans, Centre, France",
+    "description":".Net development of an Excel app to manage better the return problems from the customer delivery and the team developer. Word specials developments to change standard type format letters demands by the french bank Credit Agricole Client."
 },
 {
     "id": "3",
@@ -27,19 +27,19 @@
 },
 {
     "id": "4",
-    "logo": "",
+    "logo": "evozon-logo.png",
     "title": "Intership",
-    "subtitle":"Sopra",
-    "period": "Apr 2014 – Jul 2014",
-    "location": "Orléans, Centre, France",
-    "description":".Net development of an Excel app to manage better the return problems from the customer delivery and the team developer. Word specials developments to change standard type format letters demands by the french bank Credit Agricole Client."
+    "subtitle":"Evozon",
+    "period": "dNov 2016 – Dec 2016",
+    "location": "Cluj County, Romania",
+    "description":"1 month internship to learns basics of Dynamics Navision."
 },
 {
     "id": "5",
-    "logo": "",
-    "title": "Internship",
-    "subtitle":"Chambre régionale d'Agriculture du Centre",
-    "period": "Apr 2013 – Jun 2013",
-    "location": "Orléans, Centre, France",
-    "description":"Development of a PHP web app to produce statistics of created tickets/cases problems by employees to improve the bad points found."
+    "logo": "evozon-logo.png",
+    "title": "Dynamics Navision Consultant/Developer",
+    "subtitle":"Evozon",
+    "period": "Jan 2017 – Present",
+    "location": "Cluj County, Romania",
+    "description":""
 }]
