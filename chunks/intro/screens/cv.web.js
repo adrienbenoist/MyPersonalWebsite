@@ -8,20 +8,26 @@ import Educations from "../data/educations"
 
 const Step = Steps.Step
 const CurrentExperienceId = 4
+const CurrentEducationId = 5
 
 export default class CvScreen extends Screen {
   constructor (props) {
     super(props)
     this.state = { ...this.state }
-    this._details = (experience) => this.details.bind(this, experience)
+    this._detailsExperience = (experience) => this.detailsExperience.bind(this, experience)
+    this._detailsEducation = (education) => this.detailsEducation.bind(this, education)
   }
 
   componentDidMount () {
     super.componentDidMount()
   }
 
-  details (experience) {
+  detailsExperience (experience) {
     this.triggerRawRedirect(`../data/experiences/${experience.id}`)
+  }
+
+  detailsEducation (education) {
+    this.triggerRawRedirect(`../data/educations/${education.id}`)
   }
 
   renderExperience(experience) {
@@ -60,8 +66,42 @@ export default class CvScreen extends Screen {
       description={description} />
   }
 
+  renderEducation(education) {
+    const description = <div style={{
+      marginRight: '30px'
+    }}>
+      <Typography use='headline3' tag='h3' style={{
+        color: '#90A4AE',
+        marginBottom: '10px',
+        textAlign: 'left' }}>
+        { education.degree }
+      </Typography>
+      <Typography use='body1' tag='h1' style={{
+        color: '#90A4AE',
+        marginBottom: '10px',
+        textAlign: 'left' }}>
+        { education.period }
+      </Typography>
+      <Typography use='subheading2' tag='h1' style={{
+        color: '#90A4AE',
+        marginBottom: '10px',
+        textAlign: 'left' }}>
+        { education.description }
+      </Typography>
+    </div>
+
+    return <Step
+      key={education.id}
+      title={education.nom}
+      description={description} />
+  }
+
   renderExperiences() {
     return Experiences.map(experience => this.renderExperience(experience))
+  }
+
+  renderEducations() {
+    return Educations.map(education => this.renderEducation(education))
   }
 
   renderMainContent() {
@@ -82,7 +122,7 @@ export default class CvScreen extends Screen {
 
       <Card style={{ width, margin: '10px', padding }}>
         <Typography use='display1' tag='h1' style={{ color: '#90A4AE', marginBottom: '30px', marginTop: '20px' }}>
-          Experiences
+          Experience
         </Typography>
 
         <Steps
@@ -91,6 +131,19 @@ export default class CvScreen extends Screen {
           current={CurrentExperienceId}>
 
           { this.renderExperiences() }
+
+        </Steps>
+
+        <Typography use='display1' tag='h1' style={{ color: '#90A4AE', marginBottom: '30px', marginTop: '20px' }}>
+          Education
+        </Typography>
+
+        <Steps
+          direction={'vertical'}
+          style={{margin: `${stepsPad}px`}}
+          current={CurrentEducationId}>
+
+          { this.renderEducations() }
 
         </Steps>
       </Card>
