@@ -27,11 +27,16 @@ export default class BooksScreen extends Screen {
     const description = <div style={{
       marginRight: '30px'
     }}>
+    <p>
+      <img src={book.logo} style={{
+          objectFit: 'portrait',
+          float: "left"
+        }} />
       <Typography use='headline3' tag='h3' style={{
-        color: '#90A4AE',
-        marginBottom: '10px',
-        textAlign: 'left' }}>
-        { book.author }
+          color: '#90A4AE',
+          marginBottom: '10px',
+          textAlign: 'left' }}>
+          { book.author }
       </Typography>
       <Typography use='body1' tag='h1' style={{
         color: '#90A4AE',
@@ -39,6 +44,7 @@ export default class BooksScreen extends Screen {
         textAlign: 'left' }}>
         { book.review }
       </Typography>
+    </p>
     </div>
 
     return <Step

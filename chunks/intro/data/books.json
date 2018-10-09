@@ -1,12 +1,12 @@
 [{
     "id": "1",
-    "logo": "book-elon-musk.jpg",
+    "logo": "../assets/book-elon-musk.jpg",
     "title" : "Elon Musk, Tesla, Space X, and the Quest for a Fantastic Future.",
     "author": "Ashlee Vange",
     "review": ""
 },{
     "id": "2",
-    "logo": "book-the-magic-of-thinking-big.jpg",
+    "logo": "../assets/book-the-magic-of-thinking-big.jpg",
     "title" : "The Magic of Thinking Big",
     "author": "David J.Schwartz",
     "review": ""
